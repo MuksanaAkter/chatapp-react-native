@@ -25,7 +25,7 @@ export const ChatListData = [
     profile: User2,
     time: '9:43 AM',
     message: 'Cool',
-    mute: true,
+    mute: false,
   },
   {
     id: 3,

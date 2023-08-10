@@ -1,4 +1,4 @@
-import { TouchableOpacity, StyleSheet, ScrollView} from 'react-native';
+import { View, TouchableOpacity, StyleSheet, ScrollView} from 'react-native';
 import React, {useState, useEffect} from 'react';
 import ChatList from '../components/ChatList';
 import VectorIcon from '../utils/VectorIcon';
@@ -43,7 +43,7 @@ import {useNavigation} from '@react-navigation/native';
 
 const ChatListScreen = () => {
   return (
-    <>
+    <View  style={styles.container}>
       
            <ScrollView>
       <ChatList />
@@ -56,7 +56,7 @@ const ChatListScreen = () => {
           color={Colors.white}
         />
       </TouchableOpacity>
-    </>
+    </View>
   )
 }
 

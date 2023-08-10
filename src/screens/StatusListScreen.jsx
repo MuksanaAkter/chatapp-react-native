@@ -27,11 +27,13 @@
 
 import { View, Text } from 'react-native'
 import React from 'react'
+import MyStatus from '../components/MyStatus';
 
 const StatusListScreen = () => {
   return (
     <View>
-      <Text>StatusListScreen</Text>
+      
+      <MyStatus></MyStatus>
     </View>
   )
 }
