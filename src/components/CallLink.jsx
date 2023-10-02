@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
   },
+  
   iconBg: {
     backgroundColor: Colors.tertiary,
     height: 45,
